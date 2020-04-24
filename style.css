@@ -1,4 +1,4 @@
-/*  
+/*
 Theme Name: min theme
 Theme URI: http://www.jarederickson.com/
 Description: simple clean wordpress theme
@@ -11,27 +11,27 @@ Author URI: http://www.jarederickson.com/
 @import "css/forms.css";
 
 /********************************************
-	
+
 	Typography
-	
+
 *********************************************/
 
 p { margin: 1em 0; }
 h1 { font-size: 25px; font-weight: normal; }
 a.back { text-decoration: underline; }
-#search h2, #comments h3, #commentform h3, .emptysearch, .error { font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; }
+#search h2, #comments h3, #commentform h3, .emptysearch, .error { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 18px; font-weight: normal; }
 
 .back:link, .back:visited { color: #f60; }
 .back:hover, .back:active, .back:focus { color: #3A525C; }
 
 
 /********************************************
-	
+
 	Layout
-	
+
 *********************************************/
 
-#wrapper { color: #999; font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 560px; }
+#wrapper { color: #999; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 15px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 560px; }
 
 #header { margin: 0 0 -1em 0; padding: 5em 0 0 0; position: relative; }
 #header .description { font-size: 13px; }
@@ -54,9 +54,9 @@ a.back { text-decoration: underline; }
 .post h2 a:link, .post h2 a:visited { color: #878787; }
 .post h2 a:hover, .post h2 a:active, .post h2 a:focus { color: #3A525C; }
 .post h2 { font-size: 22px; line-height: 120%; font-weight: normal; }
-.post h3 { color: #ccc; margin: 0 0 1em 0; font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 120%; }
-.post h4 { color: #CCC; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }
-.post h5 { color: #CCC;  font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%;  margin: 2em 0 1em 0; }
+.post h3 { color: #ccc; margin: 0 0 1em 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 18px; font-weight: normal; line-height: 120%; }
+.post h4 { color: #CCC; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }
+.post h5 { color: #CCC;  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 13px; font-weight: normal; line-height: 120%;  margin: 2em 0 1em 0; }
 .post blockquote cite { font-style: normal; }
 .post .number-of-comments a { text-decoration: underline; font-size: 13px; }
 #comments { font-size: 13px; }
@@ -121,9 +121,9 @@ a.back { text-decoration: underline; }
 .footer-widget { margin-bottom: 1.5em; }
 
 /********************************************
-	
+
 	Form Styles
-	
+
 *********************************************/
 
 .input-text, textarea { background: #f0f0f0; border: none; font-size: 13px; padding: .3em; }
@@ -131,7 +131,7 @@ label { font-size: 1em; margin: 0 .5em; }
 #search-form label { position: absolute; top: -99999px; }
 p.input-submit { text-align: right }
 #commentform input { width: 43% }
-#commentform textarea { font-size: 1em; font-family: Helvetica, Arial, sans-serif; width: 560px; }
+#commentform textarea { font-size: 1em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; width: 560px; }
 #commentform #submit-comment { width: auto; font-size: 14px; border: 0; padding: 5px; background: #3A525C; color: #fff; }
 #search-form #submit { padding: 1px 13px; margin: 0 0 0 5px; }
 #search h2, .emptysearch, .error { color: #CCC; }
@@ -142,10 +142,10 @@ p.input-submit { text-align: right }
 Thanks http://www.positioniseverything.net/easyclearing.html
 */
 .clearfix:after {
-    content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
     visibility: hidden;
 }
 
@@ -159,26 +159,26 @@ Thanks http://www.positioniseverything.net/easyclearing.html
 
 /* Smartphones landscape */
 @media (max-width: 480px) {
-	
+
 	#wrapper { width: 380px; padding: 0 1em; }
 	#wrapper .post img { width:  100%; height: auto;}
-	
+
 	.post .date { right: auto; left: 0; }
-	
+
 	 #commentform textarea  { width: 380px; }
-	 
+
 	 #sb-1 { width: 42%; }
 	 #sb-2 { width: 42%; }
-	
+
 }
 
 /* Smartphones horizontile */
 @media (max-width: 320px) {
-	
+
 	#wrapper { width: 280px; padding: 0 0.5em; }
 	#wrapper .post img { width:  100%; height: auto;}
-	
+
 	 #commentform textarea  { width: 260px; }
-	
+
 }
 
